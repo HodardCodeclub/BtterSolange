@@ -44,7 +44,7 @@ include "header.php";
         <section class="content-header">
           <h1>
             Dashboard
-            <small>ESwahili App</small>
+            <small>CWMS App</small>
           </h1>
 
         </section>
@@ -57,7 +57,7 @@ include "header.php";
               <div class="info-box">
                 <span class="info-box-icon bg-aqua"><i class="ion ion-person"></i></span>
                 <div class="info-box-content">
-                  <span class="info-box-text">ESwahili users</span>
+                  <span class="info-box-text">CWMS users</span>
                   <span class="info-box-number">
                     <?php
         $user = "root";
@@ -82,7 +82,7 @@ echo $count[0];
         $user = "root";
     $password = "";
     $host ="localhost";
-    $db_name ="eswahili";
+    $db_name ="CWMS";
     $con = mysqli_connect($host,$user,$password,$db_name);
        $count = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) FROM wordimages"));
 
@@ -106,7 +106,7 @@ echo $count[0];
        $user = "root";
    $password = "";
    $host ="localhost";
-   $db_name ="eswahili";
+   $db_name ="CWMS";
    $con = mysqli_connect($host,$user,$password,$db_name);
       $count = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) FROM support"));
 

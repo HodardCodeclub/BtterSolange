@@ -5,7 +5,7 @@ include_once '../admin/dbconnect.php';
 
 <header class="main-header">
   <!-- Logo -->
-  <a href="index.php" class="logo"><b>ESwahili</b> Admin</a>
+  <a href="index.php" class="logo"><b>CWMS</b> Admin</a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top" role="navigation">
     <!-- Sidebar toggle button-->
@@ -27,7 +27,7 @@ include_once '../admin/dbconnect.php';
 
 
 
-            <span class="hidden-xs">ESwahili <?php echo $_SESSION['usr_name']; ?></span>
+            <span class="hidden-xs">CWMS <?php echo $_SESSION['usr_name']; ?></span>
 
 
           </a>
@@ -36,7 +36,7 @@ include_once '../admin/dbconnect.php';
             <li class="user-header">
               <img src="dist/img/admin.jpg" class="img-circle" alt="User Image" />
               <p>
-              Eswahili <?php echo $_SESSION['usr_name']; ?>
+                  CWMS <?php echo $_SESSION['usr_name']; ?>
 
               </p>
             </li>
@@ -67,7 +67,7 @@ include_once '../admin/dbconnect.php';
         <img src="dist/img/admin.jpg" class="img-circle" alt="User Image" />
       </div>
       <div class="pull-left info">
-        <p>Eswahili <?php echo " ". $_SESSION['usr_name']; ?></p>
+        <p>CWMS <?php echo " ". $_SESSION['usr_name']; ?></p>
 
         <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
       </div>
