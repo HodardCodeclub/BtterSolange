@@ -163,6 +163,21 @@ CREATE TABLE `vendorpayment` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `member`
+--
+
+CREATE TABLE `member` (
+  `id` int(11) NOT NULL,
+  `mfirstname` varchar(300) NOT NULL,
+  `mlastname` varchar(300) NOT NULL,
+  `maddress` varchar(300) NOT NULL,
+  `mphone` varchar(300) NOT NULL,
+  `memail` varchar(300) NOT NULL,
+  `mroles` varchar(300) NOT NULL,
+  `pan` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
 -- Table structure for table `vendors`
 --
 
