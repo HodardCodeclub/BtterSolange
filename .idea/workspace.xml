@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92d15517-3a3d-4369-8860-80a328ec6389" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cwms/pages/tables/member.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwms/pages/tables/newmember.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwms/pages/tables/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwms/pages/tables/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hodard.sql" beforeDir="false" afterPath="$PROJECT_DIR$/hodard.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwms/pages/tables/newmember.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwms/pages/tables/newmember.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,8 +63,8 @@
       <file leaf-file-name="newmember.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cwms/pages/tables/newmember.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2243">
-              <caret line="143" column="113" selection-start-line="143" selection-start-column="113" selection-end-line="143" selection-end-column="113" />
+            <state relative-caret-position="120">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#7837#7843#0#HTML" expanded="true" />
               </folding>
@@ -234,18 +230,18 @@
       <workItem from="1528949936618" duration="1492000" />
       <workItem from="1529076657727" duration="75000" />
       <workItem from="1529133506470" duration="1266000" />
-      <workItem from="1529468215392" duration="2848000" />
+      <workItem from="1529468215392" duration="3729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8535000" />
+    <option name="totallyTimeSpent" value="9416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27091634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27091634" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -254,7 +250,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2574103" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2574103" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,8 +569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cwms/pages/tables/newmember.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2243">
-          <caret line="143" column="113" selection-start-line="143" selection-start-column="113" selection-end-line="143" selection-end-column="113" />
+        <state relative-caret-position="120">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#7837#7843#0#HTML" expanded="true" />
           </folding>

@@ -6,14 +6,14 @@ require_once './dbconfig.php';
 
 if(isset($_POST['btnsave']))
 {
-    $vname = $_POST['vname'];
-    $vaddress = $_POST['vaddress'];
-    $contact = $_POST['contact'];
-    $phone = $_POST['phone'];
-    $email = $_POST['email'];
-    $fax = $_POST['fax'];
+    $mfirstname = $_POST['mfirstname'];
+    $mlastname = $_POST['mlastname'];
+    $maddress = $_POST['maddress'];
+    $mphone = $_POST['mphone'];
+    $memail = $_POST['memail'];
+    $mroles = $_POST['mroles'];
     $payment = $_POST['payment'];
-    $bemail = $_POST['bemail'];
+    $bmemail = $_POST['bmemail'];
     $cin = $_POST['cin'];
     $tin = $_POST['tin'];
     $cst = $_POST['cst'];
@@ -22,21 +22,13 @@ if(isset($_POST['btnsave']))
     $amount = $_POST['amount'];
     $pan = $_POST['pan'];
 
-    $stmt = $DB_con->prepare('INSERT INTO members(vname,vaddress,contact,phone,vemail,fax,payment,bemail,cin,tin,cst,excise,tax,bank,pan) VALUES(:vname, :vaddress, :contact,:phone, :email, :fax,:payment, :bemail, :cin,:tin, :cst, :excise,:tax, :amount, :pan)');
-    $stmt->bindParam(':vname',$vname);
-    $stmt->bindParam(':vaddress',$vaddress);
-    $stmt->bindParam(':contact',$contact);
-    $stmt->bindParam(':phone',$phone);
-    $stmt->bindParam(':email',$email);
-    $stmt->bindParam(':fax',$fax);
-    $stmt->bindParam(':payment',$payment);
-    $stmt->bindParam(':bemail',$bemail);
-    $stmt->bindParam(':cin',$cin);
-    $stmt->bindParam(':tin',$tin);
-    $stmt->bindParam(':cst',$cst);
-    $stmt->bindParam(':excise',$excise);
-    $stmt->bindParam(':tax',$tax);
-    $stmt->bindParam(':amount',$amount);
+    $stmt = $DB_con->prepare('INSERT INTO members(mfirstname,mlastname,maddress,mphone,vmemail,mroles,payment,bmemail,cin,tin,cst,excise,tax,bank,pan) VALUES(:mfirstname, :mlastname, :maddress,:mphone, :memail, :mroles,:payment, :bmemail, :cin,:tin, :cst, :excise,:tax, :amount, :pan)');
+    $stmt->bindParam(':mfirstname',$mfirstname);
+    $stmt->bindParam(':mlastname',$mlastname);
+    $stmt->bindParam(':maddress',$maddress);
+    $stmt->bindParam(':mphone',$mphone);
+    $stmt->bindParam(':memail',$memail);
+    $stmt->bindParam(':mroles',$mroles);
     $stmt->bindParam(':pan',$pan);
 
 
@@ -112,7 +104,7 @@ if(isset($_POST['btnsave']))
                         <div class="box-body">
 
 
-                            <a href="members.php" class="btn btn-success">See all members</a>
+                            <a href="member.php" class="btn btn-success">See all members</a>
                             <form method="post" enctype="multipart/form-data" class="form-horizontal">
 
 
@@ -125,20 +117,20 @@ if(isset($_POST['btnsave']))
                                 <label class="control-label">member address.</label>
                                 <input class="form-control" type="text" name="maddress" placeholder="Enter member address " />
 
-                                <label class="control-label">member phone</label>
+                                <label class="control-label">member mphone</label>
                                 <div class="row">
 
                                     <div class="col-md-2">
                                         <input class="form-control"  type="text" name="user_job" value="+250" readonly />
                                     </div>
                                     <div class="col-md-10">
-                                        <input class="form-control" type="text" name="mphone" placeholder=" Enter member number"  />
+                                        <input class="form-control" type="text" name="mmphone" placeholder=" Enter member number"  />
                                     </div>
 
                                 </div>
 
-                                <label class="control-label">member email.</label>
-                                <input class="form-control" type="text" name="memail" placeholder="Enter member email" />
+                                <label class="control-label">member memail.</label>
+                                <input class="form-control" type="text" name="mmemail" placeholder="Enter member memail" />
 
                                 <label class="control-label">member roles.</label>
                                 <input class="form-control" type="mroles" name="role" placeholder="Enter member role" />
