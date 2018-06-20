@@ -99,6 +99,14 @@ include_once '../../../admin/dbconnect.php';
           <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
         </ul> -->
       </li>
+        <li class="">
+            <a href="vendors.php">
+                <i class="fa fa-pie-chart"></i>
+                <span>Members</span>
+
+            </a>
+
+        </li>
       <li>
         <a href="projects.php">
           <i class="fa fa-th"></i> <span>Projects</span>

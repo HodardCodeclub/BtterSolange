@@ -244,6 +244,13 @@ ALTER TABLE `users`
   ADD UNIQUE KEY `email` (`email`);
 
 --
+-- Indexes for table `users`
+--
+ALTER TABLE `member`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `memail` (`email`);
+
+--
 -- Indexes for table `vendorpayment`
 --
 ALTER TABLE `vendorpayment`
