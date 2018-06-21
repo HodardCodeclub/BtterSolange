@@ -215,6 +215,24 @@ echo $count[0];
         //echo 50; ?
 
 ?></span>
+                </div><!-- /.info-box-content -->
+              </div><!-- /.info-box -->
+                <div class="info-box bg-blue">
+                    <span class="info-box-icon"><i class="fa fa-th"></i> </span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">This the list of all Members</span>
+                        <span class="info-box-number">                 <?php
+                            $user = "root";
+                            $password = "";
+                            $host ="localhost";
+                            $db_name ="hodard";
+                            $con = mysqli_connect($host,$user,$password,$db_name);
+                            $count = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) FROM member"));
+
+                            echo $count[0];
+                            //echo 50; ?
+
+                            ?></span>
                 
                 </div><!-- /.info-box-content -->
               </div><!-- /.info-box -->
