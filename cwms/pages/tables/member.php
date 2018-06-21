@@ -65,7 +65,8 @@
                                         <th>Email</th>
                                         <th>Roles</th>
                                         <th>Pan</th>
-                                        <th>Actions</th>
+                                        <th>Delete</th>
+                                        <th>Update</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -101,7 +102,7 @@
                                         ?>
 
                                         <td><a href="?delete_id=<?php echo $id; ?>" title="click for delete" onclick="return confirm('sure to delete ?')" class='btn btn-danger'>Delete</a></td>
-
+                                        <td><a href="../../upload/editformnoimages.php?edit_id=<?php echo $test['id']; ?>" title="click for edit" onclick="return confirm('sure to edit ?')" class='btn btn-success'>Update</a></td>
                                         <?php
                                         // echo"</td>";
                                         //echo"<td> <a href ='prisonerupdate.php?id=$id'><button class='btn btn-success'>Update</button></a>"
