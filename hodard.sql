@@ -292,6 +292,12 @@ ALTER TABLE `purchaseorder`
 ALTER TABLE `users`
   MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `member`
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT for table `vendorpayment`
 --
 ALTER TABLE `vendorpayment`
